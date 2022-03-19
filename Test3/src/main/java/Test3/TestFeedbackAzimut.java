@@ -3,7 +3,6 @@ package Test3;
 import Base.SharedData;
 import org.junit.Test;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -120,7 +119,7 @@ public class TestFeedbackAzimut extends SharedData {
         getDriver().switchTo().window(newWindowTabs.get(2));
         getDriver().close();
 
-        //getDriver().quit();
+        getDriver().quit();
 
 
     }
